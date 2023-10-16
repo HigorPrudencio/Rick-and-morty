@@ -1,0 +1,13 @@
+.Home_person{
+  text-align: center;
+}
+
+.CharacterInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CharacterInfo p {
+  margin: 5px 0;
+}

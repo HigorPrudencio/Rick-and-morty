@@ -1,0 +1,38 @@
+/* App.css */
+.character-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  margin-bottom: 20px;
+  border: 2px solid rgb(182, 175, 175); /* Cor da borda personalizada (mais escura) */
+  padding: 10px; /* Espaçamento interno para criar uma separação entre a borda e o conteúdo */
+}
+
+.character-image {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.app-container {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin: 20px;
+}
+
+.search-container {
+  margin: 20px auto; /* Centraliza o contêiner de pesquisa horizontalmente */
+  max-width: 300px; /* Define uma largura máxima para o contêiner de pesquisa */
+}
+
+.search-input {
+  width: 100%; /* Preenche todo o espaço disponível no contêiner */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Estilize como desejar */
+
